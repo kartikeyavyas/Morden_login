@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+h1{
+    font: 200 2.5rem black sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-bottom: 55px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgba(245, 222, 179, 0.76);
+    width: 50%;
+    margin: auto;
+    padding: 21px;
+    border-radius: 21px;
+    height: 80%;
+    margin-top: 21px;
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+    box-shadow: 0 100px 100px rgb(0,0,0 /10%);
+}
+
+#name{
+    font: 100 1.1rem sans-serif;
+    margin-bottom: 55px;
+    outline: none;
+    color: black;
+    padding: 11px;
+    width: 75%;
+    border-radius: 11px;
+    border: 1px solid rgba(0, 0, 0, 0.535);
+}
+
+#email{
+    font: 100 1.1rem sans-serif;
+    margin-bottom: 55px;
+    outline: none;
+    color: black;
+    padding: 11px;
+    width: 75%;
+    border-radius: 11px;
+    border: 1px solid rgba(0, 0, 0, 0.535);
+}
+
+#password{
+    font: 100 1.1rem sans-serif;
+    margin-bottom:55px;
+    outline: none;
+    color: black;
+    padding: 11px;
+    width: 75%;
+    border-radius: 11px;
+    border: 1px solid rgba(0, 0, 0, 0.535);
+}
+
+button{
+    font: 100 1.1rem sans-serif;
+    margin-bottom: 65px;
+    outline: none;
+    color: black;
+    padding: 11px;
+    width: 75%;
+    border-radius: 11px;
+    border: 1px solid rgba(0, 0, 0, 0.535);
+    background-color: burlywood;
+    color: white;
+    font: 200 1.1rem sans-serif;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.logo{
+    position: absolute;
+    font-size: 3rem;
+    background: none;
+    height: 64px;
+    width: 64px;
+    top: 30px;
+}
+
+footer{
+    font: 100 1.09rem sans-serif;
+}
+
+.form::before{
+    content: " ";
+    position: absolute;
+    background-color: burlywood;
+    top: -880px;
+    left: 50%;
+    width: 1000px;
+    height: 990px;
+    border-radius: 45%;
+    translate: -50% 0;
+}
+
+button:hover{
+    background-color: rgb(210, 152, 75);
+}
